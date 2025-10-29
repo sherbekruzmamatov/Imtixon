@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+       background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.container{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 964px;
+
+}
+
+.head{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.head__tittle{
+    font-family: sans-serif;
+font-weight: 600;
+font-size: 48px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -4%;
+text-align: center;
+margin-bottom: 24px;
+
+}
+
+.head_text{
+    font-family: sans-serif;
+color: rgba(0, 0, 0, 0.6);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.hero{
+
+}
+
+li{
+    list-style: none;
+}
+
+.li_item{
+  
+}
+.hero_tittle{
+  width: 290px;
+  transition: 1s;
+  background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0.26px 0px 0px rgba(60, 60, 67, 0.29);
+margin-top: 80px;
+}
+
+.hero_tittle:hover{
+    transform: translateY(10px);
+}
+
+.hero__item{
+  display: flex;
+  gap: 20px;
+
+}
+
+.li_item{
+    display: flex;
+}
+.img{
+    position: relative;
+}
+
+.photo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.btm_image0{
+    margin-left: 2px;
+}
+
+.btm_item{
+    display: flex;
+    gap: 14px;
+}
+.pagination{
+    /* margin-right: 70px; */
+}
+.btm_image2{
+    margin-left: 35px;
+}
+
+.save{
+
+}
+
+.btm_image4{
+    margin-left: 85px;
+}
+
+.like_span{
+    display: flex;
+margin-bottom: 5px;
+}
+
+.bottom{
+    margin-left: 10px;
+}
+.sep{
+    font-family: SF Pro Text;
+font-weight: 400;
+font-size: 8.51px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0.04px;
+color: gray;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.li_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.fend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    font-family: SF Pro Text;
+font-weight: 600;
+font-size: 10.05px;
+leading-trim: NONE;
+line-height: 13.92px;
+letter-spacing: -0.08px;
+
+}
+
+.user_text{
+    font-family: SF Pro Text;
+font-weight: 400;
+font-size: 8.51px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0.05px;
+
+}
+.more{
+    margin-right: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 1);
+color: white;
+width: 229;
+height: 60;
+angle: 0 deg;
+opacity: 1;
+top: 824px;
+left: 620px;
+border-radius: 16px;
+padding: 15px;
+
+}
+
+
+a{
+    text-decoration: none;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 530px;
+}
